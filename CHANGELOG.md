@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 0.2.0 — 2026-11-19
+
 ### Changed
 - Renamed from `migration-orm` to `@migration/orm` (gtr ADR-0012): `gtr add @migration/orm`, `import "migration/orm"`; published to the gtr registry. Dependencies on other orm and migration packages are registry ranges instead of `github:` sources.
 

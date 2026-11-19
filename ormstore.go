@@ -1,5 +1,5 @@
 // Package ormstore is a migration backend on top of orm and an SQL driver
-// (mysql, postgres, sqlite). gtr package: migration-orm.
+// (mysql, postgres, sqlite). gtr package: @migration/orm.
 //
 // The journal of applied migrations is stored in the migrations table (the name
 // is configurable via WithTable); each migration runs in a transaction

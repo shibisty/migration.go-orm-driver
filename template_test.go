@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	ormstore "migration-orm"
+	ormstore "migration/orm"
 	"migration/cli"
 )
 

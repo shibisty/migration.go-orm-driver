@@ -11,7 +11,7 @@ package {{.Package}}
 import (
 	"context"
 
-	ormstore "migration-orm"
+	ormstore "migration/orm"
 {{- if .Table}}
 	"orm/schema"
 {{- end}}

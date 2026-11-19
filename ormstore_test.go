@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"migration"
-	ormstore "migration-orm"
+	ormstore "migration/orm"
 	"orm/schema"
 )
 

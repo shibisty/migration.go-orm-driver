@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+### Changed
+- Renamed from `migration-orm` to `@migration/orm` (gtr ADR-0012): `gtr add @migration/orm`, `import "migration/orm"`; published to the gtr registry. Dependencies on other orm and migration packages are registry ranges instead of `github:` sources.
+
 ### Added
 - `ormstore.Template`, the file `make:migration` (migration/cli) writes: `create_x_table`
   creates the table, `add_y_to_x_table` changes it.

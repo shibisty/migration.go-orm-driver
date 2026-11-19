@@ -1,4 +1,4 @@
-# migration-orm
+# @migration/orm
 
 A backend for [`migration`](https://github.com/shibisty/migration.go) on top of
 [`orm`](https://github.com/shibisty/orm.go) and an SQL driver: MySQL, Postgres, SQLite.
@@ -13,8 +13,8 @@ The Go package is `ormstore`.
 ## Installation
 
 ```bash
-gtr add github:shibisty/migration.go github:shibisty/orm.go \
-        github:shibisty/orm.go-postgres-driver github:shibisty/migration.go-orm-driver
+gtr add migration orm \
+        @orm/postgres @migration/orm
 ```
 
 `migration` and `orm` are peer dependencies (`^0.1`; `orm` `>=0.1 <0.3`); add the orm driver of your database.
@@ -24,8 +24,8 @@ gtr add github:shibisty/migration.go github:shibisty/orm.go \
 ```go
 import (
     "orm"
-    postgres "orm-postgres"
-    ormstore "migration-orm"
+    postgres "orm/postgres"
+    ormstore "migration/orm"
     "orm/schema"
 )
 
